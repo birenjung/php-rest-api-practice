@@ -1,0 +1,37 @@
+#modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border: 1px solid black;    
+    background-color: rgba(0, 0, 0, 0.7);   
+    display: none; 
+}
+#edit_form{
+    width: 25%;
+    background-color: rgb(182, 181, 181);
+    padding: 2%;
+    border-radius: 3px;
+    position: relative;
+    top: 25%;
+    left: 35.5%;
+    right: 35.5%;
+}
+#success-msg,
+#error-msg{
+    position: absolute;
+    width: 500px;
+    background-color: rgba(99, 93, 124, 0.9);
+    top: 15%;
+    left: 50%;
+    color: rgba(29, 234, 67);
+    padding: 7px;
+    border-radius: 3px;
+    display: none;
+}
+#error-msg{
+    background-color: rgba(99, 93, 124, 0.9);
+    color: rgb(163, 17, 17);
+}
